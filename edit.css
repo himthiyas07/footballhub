@@ -1,0 +1,219 @@
+@media only screen and (max-width: 600px) {
+   .h1,h2{
+       font-size: 10px;
+   }
+    header {
+        padding: 10px;
+        text-align: center;
+        font-size: 1em;
+        height: max-content;
+    }
+
+    footer {
+        padding: 20px;
+        text-align: center;
+        font-size: 1.5em;
+        height: max-content;
+    }
+    
+    nav a {
+      float: right;
+      display: block;
+      color: #0c0c0c;
+      padding: 10px 12px;
+      text-decoration: none;
+      
+    }
+    .login-container {
+
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 90%;
+    }
+
+    .tab {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tab button {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .champions1 img {
+        width: 65px;
+        height: auto;
+        margin: 10px auto;
+        padding-left: 25px ;
+    }
+
+    .club-image img {
+        width: 65px;
+        height: auto;
+        margin: 10px auto;
+        padding-left: 25px;
+        padding-right: 15px;
+    }
+
+    .champions img {
+        width: 60px;
+        height: auto;
+        margin: 10px auto;
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .record-players img {
+        display: inline;
+        width: 60px;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .carousel-item img {
+        width: 100px;
+        height: auto;
+        margin: 10px auto;
+    }
+    
+    .main-container {
+        display: flex;
+        column-gap: 10px;
+    
+    }
+    .main-container img {
+        width: 150px;
+        height: 200px;
+        margin: 10px auto;
+    }
+    .team-container{
+        padding-left: 25px;
+        width: 70%;
+        padding-bottom: 40px;
+    }
+
+    .team-container img {
+        width: 200px;
+        height: 100px;
+        margin: 10px auto;
+        cursor: pointer;
+        margin: 15px;
+        border-radius: 10px;
+
+    }
+    .naton-container{
+        display: inline;
+    }
+
+    .nation-img {
+        width: 65px;
+        height: auto;
+        margin: 10px auto;
+        cursor: pointer;
+        border-radius: 50px;
+       
+    }
+
+    .player-info-container {
+        max-width: 500px;
+        border-radius: 2px;
+        margin: 10px auto;
+        padding: 10px;
+    }
+    .player-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #000;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #f0f0f0;
+        margin-right: 10px;
+    }
+    
+    .player-info h2 {
+        margin: 0 0 10px;
+        font-size: 20px;
+        color: #000;
+    }
+    
+    .player-info img {
+        width: 100px;
+        height: 90px;
+        margin: 5px 0;
+    }
+    
+    .player-info p {
+        margin: 5px 0;
+        color: #000;
+        font-size: 18px;
+    }
+    
+    
+    .content {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .free-link button {
+        width: 80%;
+        margin: 10px auto;
+        display: block;
+        width: 100%;
+        margin: 0.5em auto;
+    }
+
+    .league-container {
+        display: inline;
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .league img {
+        width: 70px;
+        height: auto;
+        margin: 8px auto;
+        cursor: pointer;
+        border-radius: 50px;
+    }
+
+    .flag-container img {
+        width: 90px;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .social-container {
+        width: 50%;
+        margin: 10px auto;
+        float: right;
+    }
+    
+    .video-container video {
+        display: inline-block;
+        width: 70px;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .video-container {
+        width: 100px;
+        height: auto;
+        margin: 10px auto;
+        padding-left: 10px;
+    }
+
+    .flag-container {
+        overflow: hidden;
+    }
+
+    nav ul li a img {
+        width: 50px;
+    }
+
+    .login-container, .form-group input, .form-group label {
+        width: 90%;
+    }
+}

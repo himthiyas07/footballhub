@@ -1,0 +1,704 @@
+header {
+   background: #333;
+   color: #ffffff;
+   text-align: center;
+   padding: 10px; 
+}
+
+body {
+   font-family: Arial, sans-serif;
+   background-color: #ffffff; 
+   padding: 10px;
+}
+
+h1, h2 {
+   text-transform: uppercase;
+}
+
+/* Index page */
+.login-container {
+   background-color: #fff;
+   padding-left: 550px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px #fff;
+   width: 300px;
+   height: auto;
+}
+
+.tab {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+.tab button {
+   background-color: #020202;
+   font-size: large;
+   padding: 15px 25px;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+.tab button:hover {
+   background-color: #b10101;
+}
+
+.tabcontent {
+   display: none;
+}
+
+.tabcontent.active {
+   display: block;
+   align-items: center;
+}
+
+.form-group {
+   margin-bottom: 15px;
+}
+
+.form-group label {
+   display: block;
+   margin-bottom: 5px;
+}
+
+.form-group input {
+   width: 100%;
+   padding: 8px;
+   box-sizing: border-box;
+}
+
+button {
+   padding: 10px 15px;
+   background-color: #000;
+   color: #fdfcfc;
+   font-size: larger;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   max-width: 100px;
+   margin: 10px;
+}
+
+button:hover {
+   background-color: #930101;
+}
+
+#error-message, #login-error-message, #register-error-message {
+   color: red;
+   margin-top: 10px;
+}
+
+.flag-container img:hover {
+   transform: scale(1.1);
+   box-shadow: 0 4px 8px #fff;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 1page */
+
+nav a {
+   float: right;
+   display: block;
+   color: #0c0c0c;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+  
+}
+nav a:hover {
+   background-color: #262525;
+   color: #fff;
+}
+.champions1 img {
+   display: inline;
+   width: 150px;
+   height: auto;
+   margin: 40px;
+   padding-left: 20px;
+}
+
+.champions1 img:hover {
+   transform: scale(1.1);
+   box-shadow: 0 4px 8px #fff;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* national.html */
+.nation-img {
+   width: 80px;
+   height: auto;
+   cursor: pointer;
+   margin: 20px;
+   border-radius: 50px;
+}
+
+.nation-img:hover {
+   transform: scale(1.2);
+   box-shadow: 0 4px 8px #fff;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-container {
+   display: flex;
+   column-gap: 10px;
+}
+
+.main-container img {
+   width: 300px;
+   height: 350px;
+   cursor: pointer;
+   margin: 20px;
+   border-radius: 10px;
+}
+
+.team-container {
+   padding-left: 50px;
+   width: 1100px;
+   padding-bottom: 80px;
+}
+
+.team-container img {
+   display: flex;
+   position: relative;
+   width: 500px;
+   height: 350px;
+   cursor: pointer;
+   margin: 20px;
+   border-radius: 10px;
+}
+
+hr.dashed {
+   border: 0;
+   border-top: 1px dashed #000;
+   margin: 20px 0;
+}
+
+.player-info-container {
+   display: flex;
+   position: relative;
+   flex-direction: column;
+   color: #000;
+   max-width: 500px;
+   border-radius: 2px;
+   padding: 20px;
+   gap: 20px;
+}
+
+.player-info {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border: 1px solid #000;
+   padding: 10px;
+   border-radius: 5px;
+   background-color: #f0f0f0;
+   margin-right: 10px;
+}
+
+.player-info h2 {
+   margin: 0 0 10px;
+   font-size: 20px;
+   color: #000;
+}
+
+.player-info img {
+   width: 170px;
+   height: 150px;
+   margin: 5px 0;
+}
+
+.player-info p {
+   margin: 5px 0;
+   color: #000;
+   font-size: 18px;
+}
+
+
+.content {
+   padding: 20px;
+   text-align: center;
+}
+
+.flag-container {
+   width: 100%;
+   overflow: hidden;
+   white-space: nowrap;
+   color: #000;
+}
+
+.flag-container img {
+   display: inline-block;
+   vertical-align: top;
+   max-width: 70%;
+   height: 400px;
+}
+
+.flag-slide:hover {
+   animation-play-state: paused;
+}
+
+@keyframes slide {
+   0% {
+       transform: translateX(100%);
+   }
+   100% {
+       transform: translateX(-100%);
+   }
+}
+
+.flag-slide {
+   display: inline-block;
+   white-space: nowrap;
+   animation: slide 10s linear infinite;
+}
+
+/* social icons */
+.social-container {
+   display: flex;
+   justify-content: space-around;
+   width: 300px;
+   background-color: #fff;
+   padding: 10px;
+   float: right;
+}
+
+.social-link {
+   text-decoration: none;
+   color: #000;
+   font-size: 25px;
+   transition: color 0.3s;
+}
+
+.social-link:hover {
+   color: #000;
+   transform: scale(1.1);
+   box-shadow: 0 4px 8px rgba(255, 254, 254, 0.2);
+}
+
+/* league.html */
+.league-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-top: 5px;
+   height: 150px;
+   color: #fff;
+   padding: 20px;
+}
+
+.league {
+   border-radius: 10px;
+   width: 10%;
+   margin: 10px;
+   padding: 10px;
+   text-align: center;
+}
+
+.league img {
+   margin-top: 6px;
+   width: 80px;
+   height: 80px;
+   cursor: pointer;
+   border-radius: 50px;
+}
+
+.league img:hover {
+   transform: scale(1.1);
+}
+
+.league-details {
+   display: none;
+   margin-top: 30px;
+   font-size: 20px;
+}
+
+.club-image img {
+   display: inline;
+   width: 100px;
+   height: auto;
+   margin: 30px;
+   padding-left: 40px;
+}
+
+.club-image img:hover {
+   transform: scale(1.2);
+   box-shadow: 0 4px 8px #fff;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.champions {
+   font-size: 18px;
+   padding-bottom: 20px;
+   align-items: center;
+}
+
+.champions img {
+   display: inline;
+   width: 90px;
+   height: auto;
+   margin: 30px;
+   padding-left: 20px;
+}
+
+.record-players {
+   font-size: 20px;
+}
+
+.record-players img {
+   display: inline;
+   width: 200px;
+   height: 200px;
+   margin: 40px;
+}
+
+.carousel-item {
+
+   padding-top: 20px;
+   padding-bottom: 20px;
+   text-align: center;
+   align-items: center;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.carousel-item img {
+   height: 500px;
+   width: 600px;
+}
+
+/* live page */
+nav {
+   background: #444;
+   padding: 10px 0;
+   text-align: center;
+}
+
+nav ul li {
+   display: inline;
+   margin: 0 10px;
+}
+
+nav ul li a img {
+   width: 70px;
+   height: auto;
+   cursor: pointer;
+   border-radius: 5px;
+   margin: 20px;
+}
+
+nav ul li a img:hover {
+   transform: scale(1.1);
+   box-shadow: 0 4px 8px rgba(83, 83, 83, 0.489);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#main-content {
+   background-color: #fff;
+   border: 1px solid #fff;
+   max-width: 500px;
+   padding: 10px 0;
+   font-size: 15px;
+}
+
+p {
+   color: #000;
+   font-size: 20px;
+}
+
+.video-container {
+   display: inline-block;
+   margin: 10px;
+   padding-left: 40px;
+}
+
+video {
+   width: 400px;
+   height: auto;
+}
+
+.free-link {
+   text-align: center;
+}
+
+.free-link button {
+   background-color: #fff;
+   border-radius: 5px;
+   color: #fff;
+   padding: 10px 20px;
+   text-align: left;
+   display: inline-block;
+   font-size: 20px;
+   cursor: pointer;
+   margin: 10px;
+}
+
+.free-link button:hover {
+   background-color: #bbb8b8;
+   color: #fff;
+   transform: scale(1.1);
+   box-shadow: 0 4px 8px #7d7c7c;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Footer */
+footer {
+   background-color: #333;
+   color: #fff;
+   padding: 5px;
+   text-align: center;
+   position: relative;
+   bottom: 0;
+}
+
+.conclusion p, .legal p {
+   margin: 10px 0;
+   color: #fff;
+   font-size: 15px;
+}
+
+.legal a {
+   color: #fffcfc;
+   text-decoration: none;
+}
+
+.legal a:hover {
+   color: #859bc7;
+   text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+    .h1,h2{
+       font-size: 25px;
+    }
+    header {
+        padding: 10px;
+        text-align: center;
+        font-size: 1em;
+        height: max-content;
+    }
+
+    footer {
+        padding: 20px;
+        text-align: center;
+        font-size: 1.5em;
+        height: max-content;
+    }
+    
+    nav a {
+      float: right;
+      display: block;
+      color: #0c0c0c;
+      padding: 10px 12px;
+      text-decoration: none;
+      margin: 10px;
+      font-size: small;
+      
+    }
+    .login-container {
+
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 90%;
+    }
+
+    .tab {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tab button {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .champions1 img {
+        width: 65px;
+        height: auto;
+        margin: 10px auto;
+        padding-left: 25px ;
+    }
+
+
+    
+
+    .carousel-item img {
+        width: 100px;
+        height: auto;
+        margin: 10px auto;
+    }
+    
+    .main-container {
+        display: flex;
+        column-gap: 10px;
+    
+    }
+    .main-container img {
+        width: 100px;
+        height: 200px;
+        margin: 10px auto;
+    }
+    .team-container{
+        padding-left: 25px;
+        width: 70%;
+        padding-bottom: 40px;
+        font-size: small;
+    }
+
+    .team-container img {
+        width: 200px;
+        height: 100px;
+        margin: 10px auto;
+        cursor: pointer;
+        margin: 15px;
+        border-radius: 10px;
+
+    }
+    .nation-container{
+        display: inline;
+    }
+
+    .nation-img {
+        width: 50px;
+        height: auto;
+        margin: 10px auto;
+        cursor: pointer;
+        border-radius: 50px;
+       
+    }
+
+    .player-info-container {
+        max-width: 200px;
+        border-radius: 2px;
+        margin: 10px auto;
+        padding: 10px;
+    }
+    .player-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #000;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #f0f0f0;
+        margin-right: 10px;
+    }
+    
+    .player-info h2 {
+        margin: 0 0 10px;
+        font-size: 10px;
+        color: #000;
+    }
+    
+    .player-info img {
+        width: 100px;
+        height: 90px;
+        margin: 5px 0;
+    }
+    
+    .player-info p {
+        margin: 5px 0;
+        color: #000;
+        font-size: 10px;
+    }
+    
+    
+    .content {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .free-link button {
+        width: 80px;
+        margin: 10px auto;
+        display: block;
+        margin: 0.5em auto;
+    }
+    .league-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 5px;
+      color: #fff;
+      padding: 10px;
+    }
+   
+   
+   .league img {
+        width: 55px;
+        height: auto;
+        margin: 8px auto;
+        cursor: pointer;
+        border-radius: 50px;
+   }
+    
+   .league-details {
+      display: none;
+      margin-top: 30px;
+      font-size: 15px;
+   }
+   
+   .club-image img {
+      width: 65px;
+      height: auto;
+      margin: 10px auto;
+      padding-left: 25px;
+      padding-right: 15px;
+  }
+   .champions {
+       font-size: 10px;
+        padding-bottom: 20px;
+        align-items: center;
+   }
+  .champions img {
+      display: inline;
+      width: 60px;
+      height: auto;
+      margin: 10px auto;
+      font-size: 18px;
+      padding-left: 10px;
+      
+  }
+    .flag-container img {
+        width: 90px;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .social-container {
+        width: 50%;
+        margin: 10px auto;
+        float: right;
+        
+    }
+    .social-link {
+      text-decoration: none;
+      color: #000;
+      font-size: 18px;
+      transition: color 0.3s;
+  }
+    
+    .video-container video {
+        display: inline-block;
+        width: 150px;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .video-container {
+        width: 150px;
+        height: auto;
+        margin: 10px auto;
+        padding-left: 10px;
+    }
+
+    .flag-container {
+        overflow: hidden;
+    }
+
+    nav ul li a img {
+        width: 50px;
+    }
+
+    .login-container, .form-group input, .form-group label {
+        width: 90%;
+    }
+}
