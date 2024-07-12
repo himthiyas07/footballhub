@@ -2,7 +2,7 @@ header {
    background: #333;
    color: #ffffff;
    text-align: center;
-   padding: 10px; 
+   padding: 10px;
 }
 
 body {
@@ -95,7 +95,6 @@ button:hover {
 }
 
 /* 1page */
-
 nav a {
    float: right;
    display: block;
@@ -116,7 +115,6 @@ nav a:hover {
    margin: 40px;
    padding-left: 20px;
 }
-
 .champions1 img:hover {
    transform: scale(1.1);
    box-shadow: 0 4px 8px #fff;
@@ -367,7 +365,8 @@ hr.dashed {
 }
 
 /* live page */
-nav {
+
+nav ul li {
    background: #444;
    padding: 10px 0;
    text-align: center;
@@ -382,14 +381,14 @@ nav ul li a img {
    width: 70px;
    height: auto;
    cursor: pointer;
-   border-radius: 5px;
+   border-radius: 50px;
    margin: 20px;
 }
 
-nav ul li a img:hover {
+nav ul li  img:hover {
    transform: scale(1.1);
-   box-shadow: 0 4px 8px rgba(83, 83, 83, 0.489);
    transition: transform 0.3s ease, box-shadow 0.3s ease;
+   background-color: #f0f0f0;
 }
 
 #main-content {
@@ -466,21 +465,31 @@ footer {
    text-decoration: underline;
 }
 @media only screen and (max-width: 600px) {
-    .h1,h2{
-       font-size: 25px;
+   body{
+      padding: 3px;
+   }
+    h1,{
+       font-size: 18px;
+    }
+    h3,h2{
+      font-size: 15px;
+    }
+    p{
+      font-size: 12px;
     }
     header {
-        padding: 10px;
+        padding: 3%;
         text-align: center;
-        font-size: 1em;
-        height: max-content;
+        font-weight: 10px;
+        height: 40px;
     }
 
     footer {
-        padding: 20px;
+        padding: 5px;
         text-align: center;
-        font-size: 1.5em;
-        height: max-content;
+        font-size: 15px;
+        height: 100px;
+      
     }
     
     nav a {
@@ -489,8 +498,8 @@ footer {
       color: #0c0c0c;
       padding: 10px 12px;
       text-decoration: none;
-      margin: 10px;
-      font-size: small;
+      justify-content: space-around;
+      font-size: 10px;
       
     }
     .login-container {
@@ -511,19 +520,16 @@ footer {
     }
 
     .champions1 img {
-        width: 65px;
+        width: 55px;
         height: auto;
-        margin: 10px auto;
-        padding-left: 25px ;
+        margin: 15px ;
+        
     }
 
-
-    
-
     .carousel-item img {
-        width: 100px;
-        height: auto;
-        margin: 10px auto;
+        width: 50px;
+        height: 50px;
+      
     }
     
     .main-container {
